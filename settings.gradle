@@ -1,0 +1,4 @@
+include 'org.xtext.demo.dsl'
+include 'org.xtext.demo.dsl.ide'
+include 'org.xtext.demo.dsl.ls'
+
