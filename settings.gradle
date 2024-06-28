@@ -1,2 +1,4 @@
 include 'd3dsl'
 include 'd3dsl.ide'
+include 'd3dsl.ls'
+
