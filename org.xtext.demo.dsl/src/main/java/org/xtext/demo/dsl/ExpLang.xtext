@@ -1,9 +1,0 @@
-grammar org.xtext.demo.dsl.ExpLang with org.eclipse.xtext.common.Terminals
-
-generate expLang "http://www.xtext.org/demo/dsl/ExpLang"
-
-Model:
-	greetings+=Greeting*;
-	
-Greeting:
-	'Hello' name=ID '!';

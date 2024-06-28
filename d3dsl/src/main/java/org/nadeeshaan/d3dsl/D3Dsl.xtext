@@ -1,0 +1,9 @@
+grammar org.nadeeshaan.d3dsl.D3Dsl with org.eclipse.xtext.common.Terminals
+
+generate d3Dsl "http://www.nadeeshaan.org/d3dsl/D3Dsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

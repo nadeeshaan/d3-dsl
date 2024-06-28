@@ -23,7 +23,7 @@ subprojects {
 	apply from: "${rootDir}/gradle/source-layout.gradle"
 	apply plugin: 'eclipse'
 
-	group = 'org.xtext.demo.dsl'
+	group = 'd3dsl'
 	version = '1.0.0-SNAPSHOT'
 
 	java {
